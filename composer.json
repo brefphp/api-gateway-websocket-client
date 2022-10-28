@@ -1,7 +1,7 @@
 {
-    "name": "mnapoli/myproject",
-    "description": "Give it a nice description!",
-    "keywords": [],
+    "name": "bref/websocket-client",
+    "description": "Websocket client for API Gateway Websockets",
+    "keywords": ["bref", "api-gateway", "websocket", "serverless"],
     "license": "MIT",
     "type": "library",
     "autoload": {
