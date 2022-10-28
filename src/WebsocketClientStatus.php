@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Bref\Websocket;
+namespace Bref\ApiGatewayWebsocket;
 
 use DateTimeImmutable;
 

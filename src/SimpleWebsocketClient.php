@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Bref\Websocket;
+namespace Bref\ApiGatewayWebsocket;
 
 use AsyncAws\Core\Credentials\CredentialProvider;
 use Symfony\Component\HttpClient\HttpClient;

@@ -1,17 +1,17 @@
 {
-    "name": "bref/websocket-client",
+    "name": "bref/api-gateway-websocket-client",
     "description": "Websocket client for API Gateway Websockets",
     "keywords": ["bref", "api-gateway", "websocket", "serverless"],
     "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Bref\\Websocket\\": "src/"
+            "Bref\\ApiGatewayWebsocket\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bref\\Websocket\\Test\\": "tests/"
+            "Bref\\ApiGatewayWebsocket\\Test\\": "tests/"
         }
     },
     "require": {

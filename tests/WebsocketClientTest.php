@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Bref\Test\Websocket;
+namespace Bref\ApiGatewayWebsocket\Test;
 
 use AsyncAws\Core\Credentials\NullProvider;
 use AsyncAws\Core\Exception\Http\ClientException;
-use Bref\Websocket\SimpleWebsocketClient;
+use Bref\ApiGatewayWebsocket\SimpleWebsocketClient;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
