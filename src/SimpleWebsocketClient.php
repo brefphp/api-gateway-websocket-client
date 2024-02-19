@@ -9,14 +9,14 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 /**
  * A simple alternative for communicating with websocket connections.
  */
-final class SimpleWebsocketClient
+class SimpleWebsocketClient
 {
     private string $stage;
     private WebsocketClient $client;
 
     public static function create(string $apiId, string $region, string $stage, int $timeout = 10): SimpleWebsocketClient
     {
-        return new static(
+        return new self(
             $apiId,
             $region,
             $stage,
